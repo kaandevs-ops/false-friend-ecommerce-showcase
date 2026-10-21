@@ -113,3 +113,13 @@ Email verification, transactional delivery and email-based forgotten-password re
 ![Customer profile using fictional demonstration data](assets/screenshots/16-musteri-hesabi.png)
 ![Saved pieces](assets/screenshots/17-favoriler.png)
 
+## Responsive interaction and accessibility
+
+The interface adapts across phone, tablet and desktop layouts. Mobile presentation includes a full navigation panel, product media, responsive product information, cart controls and checkout stages. Keyboard focus handling, modal focus traps, labels, escape controls and reduced-motion behavior are part of the implementation.
+
+Local responsive testing covered widths from **320 to 1440 CSS pixels**. The showcase captures additionally include a 1920-pixel desktop viewport. Accessibility checks are a limited semantic smoke test, not a WCAG certification or a Safari/VoiceOver/device acceptance claim.
+
+| Mobile storefront | Mobile product selection | Mobile checkout |
+| --- | --- | --- |
+| ![Mobile home](assets/screenshots/18-acilis-mobil.png) | ![Mobile variants](assets/screenshots/22-urun-secimi-mobil.png) | ![Mobile checkout](assets/screenshots/24-odeme-mobil.png) |
+
