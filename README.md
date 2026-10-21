@@ -191,3 +191,22 @@ The frontend keeps interaction state while the API owns authenticated pricing, s
 
 These are implementation details supported by local checks; a public hosting/security audit is a separate deployment activity.
 
+## Application map
+
+These paths describe the private application, not runnable pages in this showcase repository.
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Cinematic home and featured collection |
+| `/shop` | Catalog, category/search/sort controls |
+| `/product/:slug` | Product, media, variants, sizing and reviews |
+| `/lookbook` | Campaign/editorial experience |
+| `/about` | Manifesto |
+| `/service` | Delivery, returns, sizing and care guidance |
+| `/account` | Customer access, profile, destinations, order/return service |
+| `/checkout` | Server-quoted checkout and order-attempt recovery |
+| `/admin` | Role-protected operations console |
+| `/privacy`, `/terms` | Concept policy surfaces |
+
+The API is divided into catalog, authentication, account, cart, wishlist, checkout, order, review, return and admin controllers. The storefront also has a live product-document endpoint. The repository contains descriptions and captured output, not those controllers or a deployable API.
+
