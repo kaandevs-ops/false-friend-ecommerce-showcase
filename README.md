@@ -210,3 +210,38 @@ These paths describe the private application, not runnable pages in this showcas
 
 The API is divided into catalog, authentication, account, cart, wishlist, checkout, order, review, return and admin controllers. The storefront also has a live product-document endpoint. The repository contains descriptions and captured output, not those controllers or a deployable API.
 
+## Verification snapshot
+
+The following results refer to the private main application's local delivery-10 verification, recorded on **20–21 October 2026**. They are historical test results, not a CI badge for code in this media repository.
+
+| Check | Result |
+| --- | --- |
+| Backend unit/HTTP-oriented tests | 55 / 55 |
+| Node helper and regression tests | 153 / 153 |
+| Real PostgreSQL + API acceptance workflow | 27 / 27 |
+| Desktop/mobile browser shopping journey | 32 / 32 |
+| Responsive route/viewport checks | 84 / 84 |
+| Browser interaction checks | 11 / 11 |
+| Catalog product/viewport checks | 24 / 24 |
+| Accessibility semantic smoke routes | 36 / 36 |
+| API runtime security checks | 10 / 10 |
+| Production-default static checks | 15 / 15 |
+| Initial HTML and social-image checks | 16 / 16 |
+| Account UI edge cases | 8 / 8 |
+| Network/session/order-recovery scenarios | 19 / 19 |
+| Media and real-navigation checks | 6 / 6 |
+| Synthetic backup/restore drill | Passed |
+
+Npm and NuGet package scans were run during that local verification. Their results describe the scan date and do not imply permanent vulnerability clearance. Private logs, login credentials and database artifacts are deliberately excluded here.
+
+### Current boundaries and known observation
+
+- Payments and refunds are simulated. Live merchant/provider onboarding is not included.
+- Email sending, subscriptions and email-based password recovery are not connected.
+- Catalog products, materials, prices, delivery/return wording and brand assets are illustrative.
+- USD/GBP conversions are fixed estimates; checkout uses EUR.
+- Physical garment measurements are not supplied.
+- Hosting/domain/TLS deployment was not performed as part of this showcase.
+- Docker/Nginx runtime deployment, Safari, physical-device acceptance and a general WCAG audit were not verified in the local capture environment.
+- During the 1920-pixel capture, the top navigation could overlap the full-screen gallery's close button. The built-in **Escape** shortcut closed the gallery. That observation remains recorded; this media repository does not claim it was fixed.
+
