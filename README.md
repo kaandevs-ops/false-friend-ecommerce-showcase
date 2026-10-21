@@ -123,3 +123,27 @@ Local responsive testing covered widths from **320 to 1440 CSS pixels**. The sho
 | --- | --- | --- |
 | ![Mobile home](assets/screenshots/18-acilis-mobil.png) | ![Mobile variants](assets/screenshots/22-urun-secimi-mobil.png) | ![Mobile checkout](assets/screenshots/24-odeme-mobil.png) |
 
+## Real walkthroughs — 2× speed
+
+Both files are encoded at **twice the captured speed**, rather than requiring a playback-speed setting. The desktop video is 1920×1080; the vertical mobile video is 430×932. Both use H.264 MP4 at 25 fps and have no added soundtrack.
+
+| Desktop · about 47 seconds | Mobile · about 15 seconds |
+| --- | --- |
+| [![Play desktop walkthrough](assets/previews/desktop-preview-2x.gif)](assets/videos/desktop-walkthrough-2x.mp4) | [![Play mobile walkthrough](assets/previews/mobile-preview-2x.gif)](assets/videos/mobile-walkthrough-2x.mp4) |
+
+[Open desktop MP4](assets/videos/desktop-walkthrough-2x.mp4) · [Open mobile MP4](assets/videos/mobile-walkthrough-2x.mp4)
+
+Desktop chapters, approximately:
+
+| Time at 2× | What is shown |
+| --- | --- |
+| 00:00 | Opening and scroll-driven scenes |
+| 00:10 | Product, gallery and variant selection |
+| 00:14 | Cart, quantity and coupon |
+| 00:17 | Shipping and simulated checkout review |
+| 00:24 | Collection, category filtering and search states |
+| 00:31 | Lookbook and manifesto |
+| 00:40 | Customer profile, address book and saved products |
+
+The recordings use the real local application and backend, with fictional customer/address data. No API responses were mocked. Only the initial loading wait was trimmed before the 2× conversion; the walkthrough is not assembled from still images.
+
