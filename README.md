@@ -245,3 +245,20 @@ Npm and NuGet package scans were run during that local verification. Their resul
 - Docker/Nginx runtime deployment, Safari, physical-device acceptance and a general WCAG audit were not verified in the local capture environment.
 - During the 1920-pixel capture, the top navigation could overlap the full-screen gallery's close button. The built-in **Escape** shortcut closed the gallery. That observation remains recorded; this media repository does not claim it was fixed.
 
+## Explore the media
+
+There are **24 real screenshots**: 17 desktop captures at 3840×2160 and seven mobile captures at 1290×2796. Videos are separately encoded at 2× speed. The PNG dimensions reflect high-density browser capture; the walkthrough dimensions are listed above.
+
+See the [complete screenshot index](docs/MEDIA.md) and the [media manifest](docs/MEDIA-MANIFEST.json). The repository includes only the accelerated videos; the original captures and application remain in the private project workspace.
+
+## Work with me
+
+I can adapt this experience to your store's branding and catalog or develop a separate website around your needs. Scope, integrations, delivery and support are agreed per project.
+
+**Kaan Tekin** · [GitHub](https://github.com/kaandevs-ops) · [kaantekin06@icloud.com](mailto:kaantekin06@icloud.com) · [WhatsApp](https://wa.me/905315698338)
+
+## Repository scope and license
+
+The files included in this showcase are provided under [Apache License 2.0](LICENSE), matching my existing showcase repositories. See [NOTICE](NOTICE) for attribution and repository scope.
+
+The application source, database and deployment package are not published here. Viewing this repository does not provide an application installation or a source-code download. Client delivery and customization are discussed separately.
