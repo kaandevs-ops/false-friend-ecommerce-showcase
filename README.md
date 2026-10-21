@@ -10,6 +10,10 @@ Designed and developed by **Kaan Tekin**. This repository presents the main Fals
 
 > **Showcase repository:** application source code, database dumps, credentials and deployment packages are kept outside this repository. Payments and refunds in the demonstrated application use a simulation adapter. This is a portfolio concept rather than a live merchandise shop.
 
+## Contents
+
+[Project](#the-project) · [Design](#visual-experience) · [Catalog](#products-and-catalog) · [Cart](#cart-wishlist-and-pricing) · [Checkout](#checkout-and-recovery) · [Accounts](#customer-accounts-and-store-operations) · [Mobile](#responsive-interaction-and-accessibility) · [Videos](#real-walkthroughs--2-speed) · [Architecture](#how-it-was-built) · [Routes](#application-map) · [Verification](#verification-snapshot) · [Contact](#work-with-me)
+
 ## The project
 
 False Friend explores how an editorial fashion experience can connect to practical commerce. The visual direction uses restrained typography, a dark product stage, oversized headlines, material studies and a consistent collection language. The backend provides the product, account, cart, order and operations behavior behind that interface.
