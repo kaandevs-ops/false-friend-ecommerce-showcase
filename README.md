@@ -1,0 +1,12 @@
+# False Friend — Cinematic E-Commerce Showcase
+
+**A complete streetwear storefront concept, from scroll-driven storytelling to server-verified checkout.**
+
+Designed and developed by **Kaan Tekin**. This repository presents the main False Friend project through real desktop/mobile screenshots, accelerated walkthroughs and implementation documentation.
+
+[**Türkçe anlatım**](README.tr.md) · [**Desktop walkthrough · 2×**](assets/videos/desktop-walkthrough-2x.mp4) · [**Mobile walkthrough · 2×**](assets/videos/mobile-walkthrough-2x.mp4) · [**Discuss a project**](mailto:kaantekin06@icloud.com)
+
+![False Friend cinematic storefront](assets/screenshots/01-acilis-masaustu.png)
+
+> **Showcase repository:** application source code, database dumps, credentials and deployment packages are kept outside this repository. Payments and refunds in the demonstrated application use a simulation adapter. This is a portfolio concept rather than a live merchandise shop.
+
