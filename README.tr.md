@@ -4,7 +4,7 @@
 
 Tasarım ve geliştirme: **Kaan Tekin**.
 
-[English](README.md) · [Masaüstü video · 2×](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [Mobil video · 2×](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [İletişim](mailto:kaantekin06@icloud.com)
+[English](README.md) · [Masaüstü video](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [Mobil video](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [İletişim](mailto:kaantekin06@icloud.com)
 
 ![False Friend açılış](assets/screenshots/01-acilis-masaustu.png)
 
@@ -16,13 +16,13 @@ False Friend; editoryal bir moda markası deneyiminin gerçek katalog, müşteri
 
 Bu repo **ana projeyi** tanıtır. Açılıştaki Gemini videosu ve yapay zekâ ile üretilmiş konsept ürün görselleri korunmuştur. Template Edition ayrı bir sunumdur; bu repoda yer almaz.
 
-## Videolar: gerçek gezinme, 2× hız
+## Videolar: gerçek gezinme
 
 | Masaüstü — yaklaşık 47 saniye | Mobil — yaklaşık 15 saniye |
 | --- | --- |
 | [![Masaüstü önizleme](assets/previews/desktop-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) | [![Mobil önizleme](assets/previews/mobile-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) |
 
-Videolar dosyanın içinde iki kat hızlandırıldı; oynatıcıda ayrıca hız ayarı gerektirmez. Masaüstü MP4 1920×1080, mobil MP4 430×932 piksel ve 25 fps’tir. GIF’ler bu 2× videoların kısa önizlemeleridir; tam kaydı açmak için görsele tıklayın.
+Masaüstü MP4 1920×1080, mobil MP4 430×932 piksel ve 25 fps’tir. GIF’ler videoların kısa önizlemeleridir; tam kaydı açmak için görsele tıklayın.
 
 Masaüstü kayıt: açılış → ürün/galeri/varyant → sepet/kupon → kargo/ödeme incelemesi → koleksiyon/arama → lookbook/manifesto → hesap/favoriler. Mobil kayıt: açılış, menü, koleksiyon, ürün, sepet ve checkout.
 
@@ -192,13 +192,13 @@ Gerçek ödeme/iade, e-posta ve bülten servisi bağlı değildir. USD/GBP sabit
 
 ## Vitrin paketini indirin
 
-[Tüm görseller, 2× videolar ve belgeler](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Yayın notları](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
+[Tüm görseller, videolar ve belgeler](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Yayın notları](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
 
 GIF önizlemeler README içinde hareketli görünür. Tam çözünürlüklü MP4 bağlantıları, GitHub’ın büyük dosya önizlemesine takılmadan kaydı alabilmeniz için release indirmelerine gider. Arşiv yalnızca bu vitrinin dosyalarını içerir.
 
 ## Medya ve lisans
 
-17 masaüstü PNG 3840×2160; yedi mobil PNG 1290×2796 piksel olarak gerçek arayüzden alındı. Yüksek piksel yoğunluğu ile çekim yapıldı. [Tüm kareler](docs/MEDIA.md) ve [medya manifesti](docs/MEDIA-MANIFEST.json) ayrı dosyalarda bulunur. Bu repoda yalnızca 2× videolar vardır; orijinal kayıtlar ve uygulama özel çalışma alanında korunur.
+17 masaüstü PNG 3840×2160; yedi mobil PNG 1290×2796 piksel olarak gerçek arayüzden alındı. Yüksek piksel yoğunluğu ile çekim yapıldı. [Tüm kareler](docs/MEDIA.md) ve [medya manifesti](docs/MEDIA-MANIFEST.json) ayrı dosyalarda bulunur. Bu repoda gezinme videoları vardır; orijinal kayıtlar ve uygulama özel çalışma alanında korunur.
 
 Repo içindeki dosyalar, mevcut vitrin repolarımla aynı **[Apache-2.0](LICENSE)** lisansı altında sunulur. Atıf/kapsam için [NOTICE](NOTICE) dosyasına bakın. Uygulama kaynakları, veritabanı ve dağıtım paketi burada yayınlanmaz; bu repo bir uygulama kurulum paketi değildir.
 

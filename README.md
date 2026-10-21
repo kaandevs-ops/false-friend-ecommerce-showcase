@@ -2,9 +2,9 @@
 
 **A complete streetwear storefront concept, from scroll-driven storytelling to server-verified checkout.**
 
-Designed and developed by **Kaan Tekin**. This repository presents the main False Friend project through real desktop/mobile screenshots, accelerated walkthroughs and implementation documentation.
+Designed and developed by **Kaan Tekin**. This repository presents the main False Friend project through real desktop/mobile screenshots, walkthroughs and implementation documentation.
 
-[**Türkçe anlatım**](README.tr.md) · [**Desktop walkthrough · 2×**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [**Mobile walkthrough · 2×**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [**Discuss a project**](mailto:kaantekin06@icloud.com)
+[**Türkçe anlatım**](README.tr.md) · [**Desktop walkthrough**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [**Mobile walkthrough**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [**Discuss a project**](mailto:kaantekin06@icloud.com)
 
 ![False Friend cinematic storefront](assets/screenshots/01-acilis-masaustu.png)
 
@@ -129,7 +129,7 @@ Local responsive testing covered widths from **320 to 1440 CSS pixels**. The sho
 
 ## Walkthrough videos
 
-Both files are encoded at **twice the captured speed**, rather than requiring a playback-speed setting. The desktop video is 1920×1080; the vertical mobile video is 430×932. Both use H.264 MP4 at 25 fps and have no added soundtrack.
+The desktop video is 1920×1080; the vertical mobile video is 430×932. Both use H.264 MP4 at 25 fps and have no added soundtrack.
 
 | Desktop · about 47 seconds | Mobile · about 15 seconds |
 | --- | --- |
@@ -139,7 +139,7 @@ Both files are encoded at **twice the captured speed**, rather than requiring a 
 
 Desktop chapters, approximately:
 
-| Time at 2× | What is shown |
+| Time | What is shown |
 | --- | --- |
 | 00:00 | Opening and scroll-driven scenes |
 | 00:10 | Product, gallery and variant selection |
@@ -149,7 +149,7 @@ Desktop chapters, approximately:
 | 00:31 | Lookbook and manifesto |
 | 00:40 | Customer profile, address book and saved products |
 
-The recordings use the real local application and backend, with fictional customer/address data. No API responses were mocked. Only the initial loading wait was trimmed before the 2× conversion; the walkthrough is not assembled from still images.
+The recordings use the real local application and backend, with fictional customer/address data. No API responses were mocked. Only the initial loading wait was trimmed before publication; the walkthrough is not assembled from still images.
 
 ## How it was built
 
@@ -251,15 +251,15 @@ Npm and NuGet package scans were run during that local verification. Their resul
 
 ## Download the showcase
 
-[Download all screenshots, 2× videos and documentation](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Release notes](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
+[Download all screenshots, videos and documentation](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Release notes](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
 
 The animated GIFs play inline in the README. The full-resolution MP4 links use release downloads, so visitors can obtain the recordings directly instead of reaching GitHub’s large-binary file preview. The archive contains only this showcase repository’s content.
 
 ## Explore the media
 
-There are **24 real screenshots**: 17 desktop captures at 3840×2160 and seven mobile captures at 1290×2796. Videos are separately encoded at 2× speed. The PNG dimensions reflect high-density browser capture; the walkthrough dimensions are listed above.
+There are **24 real screenshots**: 17 desktop captures at 3840×2160 and seven mobile captures at 1290×2796. The PNG dimensions reflect high-density browser capture; the walkthrough dimensions are listed above.
 
-See the [complete screenshot index](docs/MEDIA.md) and the [media manifest](docs/MEDIA-MANIFEST.json). The repository includes only the accelerated videos; the original captures and application remain in the private project workspace.
+See the [complete screenshot index](docs/MEDIA.md) and the [media manifest](docs/MEDIA-MANIFEST.json). The repository includes the walkthrough videos; the original captures and application remain in the private project workspace.
 
 ## Work with me
 
