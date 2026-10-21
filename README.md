@@ -12,7 +12,7 @@ Designed and developed by **Kaan Tekin**. This repository presents the main Fals
 
 ## Contents
 
-[Project](#the-project) · [Design](#visual-experience) · [Catalog](#products-and-catalog) · [Cart](#cart-wishlist-and-pricing) · [Checkout](#checkout-and-recovery) · [Accounts](#customer-accounts-and-store-operations) · [Mobile](#responsive-interaction-and-accessibility) · [Videos](#real-walkthroughs--2-speed) · [Architecture](#how-it-was-built) · [Routes](#application-map) · [Verification](#verification-snapshot) · [Contact](#work-with-me)
+[Project](#the-project) · [Design](#visual-experience) · [Catalog](#products-and-catalog) · [Cart](#cart-wishlist-and-pricing) · [Checkout](#checkout-and-recovery) · [Accounts](#customer-accounts-and-store-operations) · [Mobile](#responsive-interaction-and-accessibility) · [Videos](#walkthrough-videos) · [Architecture](#how-it-was-built) · [Routes](#application-map) · [Verification](#verification-snapshot) · [Contact](#work-with-me)
 
 ## The project
 
@@ -45,7 +45,7 @@ The demo catalog contains **eight products across four categories**: tops, outer
 | Product details | Product description, composition, fit notes, price and availability |
 | Variant selection | Size/color combinations, variant-specific prices and stock limits |
 | Product media | Gallery navigation, thumbnails, pointer inspection and keyboard-accessible full-screen viewing |
-| Quick interactions | Quick view/add controls and saved products |
+| Quick interactions | Quick view/add controls, saved products and locally remembered recent products |
 | Product guidance | Size architecture, available sizes, category guidance and service access |
 | Live catalog changes | Added products can load from the backend after a frontend build |
 | Product documents | Initial titles, social images, canonical URLs and structured product metadata use live backend data |
@@ -98,7 +98,7 @@ The concierge is an on-site service guide panel. The mailing-list interaction is
 | Area | Implemented application behavior |
 | --- | --- |
 | Customer access | Registration with password confirmation, login, logout and session validation |
-| Profile | Customer details, saved address creation/editing/removal and default destination |
+| Profile | Customer details, loyalty-points display, saved address creation/editing/removal and default destination |
 | Password change | Current-password validation, credential update and session invalidation |
 | Orders | Account order history, details and protected tracking |
 | Reviews | Verified-purchase eligibility and moderation workflow |
@@ -127,7 +127,7 @@ Local responsive testing covered widths from **320 to 1440 CSS pixels**. The sho
 | --- | --- | --- |
 | ![Mobile home](assets/screenshots/18-acilis-mobil.png) | ![Mobile variants](assets/screenshots/22-urun-secimi-mobil.png) | ![Mobile checkout](assets/screenshots/24-odeme-mobil.png) |
 
-## Real walkthroughs — 2× speed
+## Walkthrough videos
 
 Both files are encoded at **twice the captured speed**, rather than requiring a playback-speed setting. The desktop video is 1920×1080; the vertical mobile video is 430×932. Both use H.264 MP4 at 25 fps and have no added soundtrack.
 

@@ -51,7 +51,7 @@ Demo kataloğu dört kategoride sekiz üründen oluşur: üst giyim, dış giyim
 | Ürün detayı | Açıklama, içerik, fit notları, fiyat, stok ve kategori bilgisi |
 | Varyant | Beden/renk birleşimleri, varyant fiyatı ve stok sınırı |
 | Galeri | Görsel geçişleri, küçük resimler, işaretçiyle inceleme ve tam ekran görünüm |
-| Hızlı işlemler | Hızlı inceleme/ekleme ve favoriye alma |
+| Hızlı işlemler | Hızlı inceleme/ekleme, favori ve tarayıcıda hatırlanan son incelenen ürünler |
 | Ölçü rehberi | Mevcut bedenler ve kategoriye uygun genel fit rehberi |
 | Canlı katalog | Frontend derlemesinden sonra eklenen ürünlerin API’den yüklenebilmesi |
 | Ürün belgesi | Canlı katalogdan ilk HTML başlığı, sosyal görsel, canonical ve yapılandırılmış veri |
@@ -95,7 +95,7 @@ Bu kurtarma aynı tarayıcı, origin ve müşteriyle sınırlıdır. Cihazlar ar
 | Alan | Uygulamadaki işlev |
 | --- | --- |
 | Hesap | Şifre tekrarıyla kayıt, giriş, çıkış ve oturum doğrulama |
-| Profil/adres | Müşteri bilgileri, adres ekleme/düzenleme/silme ve varsayılan adres |
+| Profil/adres | Müşteri bilgileri, puan göstergesi, adres ekleme/düzenleme/silme ve varsayılan adres |
 | Şifre değiştirme | Mevcut şifre denetimi, yeni şifre ve eski oturumun iptali |
 | Sipariş | Geçmiş, detay ve korumalı takip |
 | Yorum | Satın alma uygunluğu ve moderasyon |
