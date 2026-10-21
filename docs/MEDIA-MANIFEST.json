@@ -1,0 +1,198 @@
+{
+  "captureDate": "2026-10-21",
+  "applicationSourceIncluded": false,
+  "screenshotCount": 24,
+  "videoCount": 2,
+  "gifPreviewCount": 2,
+  "videoSpeed": 2,
+  "records": [
+    {
+      "file": "assets/previews/desktop-preview-2x.gif",
+      "bytes": 4649390,
+      "sha256": "f4b023dbf3307ca26209e32eae6f08b6c3d8484047fd36429258343e111c9e48"
+    },
+    {
+      "file": "assets/previews/mobile-preview-2x.gif",
+      "bytes": 936594,
+      "sha256": "5a3376ef8ef64c2338def236b771d208f18d4259119287f000fd63919eddea66"
+    },
+    {
+      "file": "assets/screenshots/01-acilis-masaustu.png",
+      "bytes": 5195685,
+      "sha256": "4f122c1b3583269465aa54f5fb72caeaaca7aa54696981cee1d6751544323603",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/02-kaydirma-sahnesi.png",
+      "bytes": 4649001,
+      "sha256": "ab4dd3617f686d82ceed02675fbceb8224bf66904a03acf252478dad4c6a483b",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/03-urun-detayi.png",
+      "bytes": 2372406,
+      "sha256": "649c351fa7524427953376b7730f5649846bbfdde87197dd4886ac0ef74230aa",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/04-urun-galerisi.png",
+      "bytes": 2913921,
+      "sha256": "5e03358a9ad82f188c259f9db5aea5772527851fc725801bfb3328ee1d17cfcd",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/05-tam-ekran-galeri.png",
+      "bytes": 41924,
+      "sha256": "44b050ebed0b40f99a2593db3c8b84f4b57787bd6510a815d0d6cad8a12d032f",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/06-sepet-ve-kupon.png",
+      "bytes": 1592181,
+      "sha256": "7d685e77ff56e87927f0167c3263dee0f434e30a8baf7a60299d9d4a65df80f4",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/07-odeme-adres.png",
+      "bytes": 247254,
+      "sha256": "c5a2284c6eb304e53d434c49e9ea4aaeac968a0c2fd39632259d52bc82689bf0",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/08-kargo-secenekleri.png",
+      "bytes": 231948,
+      "sha256": "e964a3bf777a3625fcd8b75346267e6568fddd76b438e380b37b10fbf7d6139a",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/09-siparis-inceleme.png",
+      "bytes": 297681,
+      "sha256": "94852e1b63725ac5af16384d1be3095a0e0c9dfc14df62de8cad9e10e4c1732c",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/10-koleksiyon.png",
+      "bytes": 3742942,
+      "sha256": "15689ddc04e08cd94cf80f82d9fc45ed8f5bed98cca6e73357fec5fc6694d38a",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/11-kategori-filtresi.png",
+      "bytes": 1053151,
+      "sha256": "8482923aa0ee06fb338e3d15088ea32a821da2e126cfc6eea1adeb6a7f9158af",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/12-koleksiyon-aramasi.png",
+      "bytes": 1063464,
+      "sha256": "2ee2f99792eccda5e9eb6f72bfc2cc3123966de26d09f05bd0ef8ba617382c0d",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/13-lookbook.png",
+      "bytes": 100089,
+      "sha256": "e7e946d968e5e89149d015ada219e997c0255ea87046a87d58a983acc163707c",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/14-lookbook-detay.png",
+      "bytes": 467019,
+      "sha256": "007bb00411d240cb951e3893c71f9c18aeb4dc3b0d60eb074c2cc13da7f9c0e6",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/15-manifesto.png",
+      "bytes": 93676,
+      "sha256": "114242a1ec93e76751b98eecfbd280cce83a09366b4f151d2b0f235026fd36b5",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/16-musteri-hesabi.png",
+      "bytes": 104168,
+      "sha256": "de5589052e2e50e03bbb9a9d69f1da8a375e86d4acde26ad5f89287d0ad95291",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/17-favoriler.png",
+      "bytes": 365292,
+      "sha256": "47af15eca6ea9c968a9857c2e7198c85735ccff2a1afab53775f6fda623621c8",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "file": "assets/screenshots/18-acilis-mobil.png",
+      "bytes": 2678507,
+      "sha256": "69292fa2929ff561ae5c5b370627e4990549c7277fc4a926c9739d4c09cf3415",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/19-menu-mobil.png",
+      "bytes": 111530,
+      "sha256": "26f19704bc0f783c6a34b8ac9d31c54029b1f4c97603bb26c64e222a2801e9d0",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/20-koleksiyon-mobil.png",
+      "bytes": 1083025,
+      "sha256": "c9d7f9324f8fc067d76a3a558ba5582650049de5302d994eb0e85935dd3e9015",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/21-urun-gorseli-mobil.png",
+      "bytes": 2103020,
+      "sha256": "10c9733c9f25d3ea38689f79b859d244f06a49205c188ef31657b7c62af26ad7",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/22-urun-secimi-mobil.png",
+      "bytes": 222519,
+      "sha256": "a31085ecfcac14c05817e7860bea97964daec660ae6af797d6f9712e32ab1cc8",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/23-sepet-mobil.png",
+      "bytes": 275223,
+      "sha256": "fa9aa053636160a45435221949d0790ad7981912e747e7aa35e830cf11cd4d42",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/screenshots/24-odeme-mobil.png",
+      "bytes": 131061,
+      "sha256": "c9f9797e7f6547065a7609e36217f497d8744c51118d27f3ee46fe3d5134a4bd",
+      "width": 1290,
+      "height": 2796
+    },
+    {
+      "file": "assets/videos/desktop-walkthrough-2x.mp4",
+      "bytes": 9871857,
+      "sha256": "36dba38ac87733715883be31282f2628586ab236a78b057bfe55a92005a147e7"
+    },
+    {
+      "file": "assets/videos/mobile-walkthrough-2x.mp4",
+      "bytes": 980598,
+      "sha256": "d6b7ed979f67a03e05ab96898ffe6f95cca65fbd8ffcfe02254f4df09e1fe9b4"
+    }
+  ]
+}
