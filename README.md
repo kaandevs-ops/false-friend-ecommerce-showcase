@@ -147,3 +147,47 @@ Desktop chapters, approximately:
 
 The recordings use the real local application and backend, with fictional customer/address data. No API responses were mocked. Only the initial loading wait was trimmed before the 2× conversion; the walkthrough is not assembled from still images.
 
+## How it was built
+
+| Layer | Technology and responsibility |
+| --- | --- |
+| Storefront | React 19, TypeScript, React Router and Lucide icons |
+| Styling | Custom responsive CSS, typography, transitions and scroll-linked interactions |
+| Frontend tooling | Vite 7, TypeScript builds and Node.js 24+ tooling |
+| HTTP API | ASP.NET Core 10 / C# |
+| Application layer | Catalog, account, cart, quote, order, review, return and operations services |
+| Domain layer | Product, variant, customer, address, order, review, return and audit entities |
+| Persistence | Entity Framework Core 10 and PostgreSQL 17 |
+| Operational jobs | Expired checkout-reservation recovery |
+| Delivery design | Docker Compose templates, Nginx reverse proxy and persistent data-protection keys |
+| Verification | .NET tests, Node regression helpers, real HTTP acceptance and Playwright/Chrome journeys |
+
+```mermaid
+flowchart LR
+    Customer[Browser / customer] --> Frontend[React storefront]
+    Frontend --> API[ASP.NET Core API]
+    API --> Application[Application services]
+    Application --> Domain[Domain rules]
+    Application --> Persistence[EF Core persistence]
+    Persistence --> Database[(PostgreSQL)]
+    Application --> Simulation[Simulation payment adapter]
+    Recovery[Reservation recovery worker] --> Application
+```
+
+The frontend keeps interaction state while the API owns authenticated pricing, stock validation and order transitions. Initial product HTML metadata is generated from the live catalog rather than freezing stock or price into a frontend build. The interactive page is rendered by React.
+
+### Reliability and security design
+
+- Cookie-based authentication and role-protected administration.
+- CSRF validation for cookie-authenticated mutations.
+- Security-stamp changes invalidate sessions after password updates.
+- Account ownership checks for private orders, addresses and attempt lookup.
+- Request deadlines, explicit retry controls and coalesced CSRF acquisition.
+- Separate request budgets for API and product-document traffic.
+- Bounded request bodies, explicit CORS origins and secure-cookie defaults.
+- Storefront security-header/CSP configuration and no-store private/live documents.
+- True 404 behavior for missing routes/products; catalog failures use an unavailable response rather than pretending the product is missing.
+- No payment credentials or raw card collection in the simulation interface.
+
+These are implementation details supported by local checks; a public hosting/security audit is a separate deployment activity.
+
