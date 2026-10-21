@@ -31,3 +31,24 @@ The opening motion was created with Gemini. Product visuals are AI-created conce
 
 ![Scroll-driven material scene](assets/screenshots/02-kaydirma-sahnesi.png)
 
+## Products and catalog
+
+The demo catalog contains **eight products across four categories**: tops, outerwear, bottoms and accessories.
+
+| Capability | Behavior |
+| --- | --- |
+| Collection browser | Category filters, catalog search, price/name sorting and editorial/compact density controls |
+| Product details | Product description, composition, fit notes, price and availability |
+| Variant selection | Size/color combinations, variant-specific prices and stock limits |
+| Product media | Gallery navigation, thumbnails, pointer inspection and keyboard-accessible full-screen viewing |
+| Quick interactions | Quick view/add controls and saved products |
+| Product guidance | Size architecture, available sizes, category guidance and service access |
+| Live catalog changes | Added products can load from the backend after a frontend build |
+| Product documents | Initial titles, social images, canonical URLs and structured product metadata use live backend data |
+| Missing items | Genuine missing-product status and recovery links; API outages are handled separately |
+
+Physical garment measurements are not provided in the concept catalog. Product materials, availability and delivery copy are demo content to be replaced for a real merchant.
+
+![Product and variant selection](assets/screenshots/03-urun-detayi.png)
+![Collection browser](assets/screenshots/10-koleksiyon.png)
+
