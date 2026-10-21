@@ -80,3 +80,12 @@ Recovery is scoped to the same browser/origin and customer. It is not a cross-de
 
 ![Server-verified checkout review](assets/screenshots/09-siparis-inceleme.png)
 
+## Editorial and service pages
+
+The campaign experience includes a lookbook with object/material frames and an interactive reveal. The manifesto explains the concept's visual direction. Service pages cover illustrative delivery/returns guidance, sizing and garment care.
+
+The concierge is an on-site service guide panel. The mailing-list interaction is an explicitly labeled preview and does not send email or create an external subscription.
+
+![Campaign lookbook](assets/screenshots/13-lookbook.png)
+![Brand manifesto](assets/screenshots/15-manifesto.png)
+
