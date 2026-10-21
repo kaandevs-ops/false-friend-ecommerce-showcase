@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.zip
+*.sql
+*.db
+*.sqlite*
+*.pem
+*.key
+node_modules/
+bin/
+obj/
+dist/
+.local-test/
+TEST-LOGIN.txt
+credentials.json
