@@ -4,7 +4,7 @@
 
 Tasarım ve geliştirme: **Kaan Tekin**.
 
-[English](README.md) · [Masaüstü video · 2×](assets/videos/desktop-walkthrough-2x.mp4) · [Mobil video · 2×](assets/videos/mobile-walkthrough-2x.mp4) · [İletişim](mailto:kaantekin06@icloud.com)
+[English](README.md) · [Masaüstü video · 2×](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [Mobil video · 2×](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [İletişim](mailto:kaantekin06@icloud.com)
 
 ![False Friend açılış](assets/screenshots/01-acilis-masaustu.png)
 
@@ -20,7 +20,7 @@ Bu repo **ana projeyi** tanıtır. Açılıştaki Gemini videosu ve yapay zekâ 
 
 | Masaüstü — yaklaşık 47 saniye | Mobil — yaklaşık 15 saniye |
 | --- | --- |
-| [![Masaüstü önizleme](assets/previews/desktop-preview-2x.gif)](assets/videos/desktop-walkthrough-2x.mp4) | [![Mobil önizleme](assets/previews/mobile-preview-2x.gif)](assets/videos/mobile-walkthrough-2x.mp4) |
+| [![Masaüstü önizleme](assets/previews/desktop-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) | [![Mobil önizleme](assets/previews/mobile-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) |
 
 Videolar dosyanın içinde iki kat hızlandırıldı; oynatıcıda ayrıca hız ayarı gerektirmez. Masaüstü MP4 1920×1080, mobil MP4 430×932 piksel ve 25 fps’tir. GIF’ler bu 2× videoların kısa önizlemeleridir; tam kaydı açmak için görsele tıklayın.
 
@@ -189,6 +189,12 @@ Npm/NuGet taramaları yerel doğrulamada çalıştırıldı; sonuçlar o tarihe 
 Gerçek ödeme/iade, e-posta ve bülten servisi bağlı değildir. USD/GBP sabit örnek kurdur. Fiziksel ürün ölçüleri verilmez. Gerçek işletme içerikleri, ödeme sağlayıcısı ve vergi/kargo kuralları müşteriye göre tamamlanır. Alan adı/HTTPS/hosting yayını bu vitrinin parçası olarak yapılmadı. Docker/Nginx çalışma zamanı, Safari/fiziksel cihaz ve kapsamlı WCAG denetimi doğrulanmış kabul edilmez.
 
 1920 px çekimde site başlığı, tam ekran galerinin kapatma düğmesiyle çakışabildi. Galeri mevcut **Escape** kısayoluyla kapatıldı. Bulgu kayıtlıdır; bu medya yayını sorunun çözüldüğünü iddia etmez.
+
+## Vitrin paketini indirin
+
+[Tüm görseller, 2× videolar ve belgeler](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Yayın notları](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
+
+GIF önizlemeler README içinde hareketli görünür. Tam çözünürlüklü MP4 bağlantıları, GitHub’ın büyük dosya önizlemesine takılmadan kaydı alabilmeniz için release indirmelerine gider. Arşiv yalnızca bu vitrinin dosyalarını içerir.
 
 ## Medya ve lisans
 

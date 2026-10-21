@@ -4,7 +4,7 @@
 
 Designed and developed by **Kaan Tekin**. This repository presents the main False Friend project through real desktop/mobile screenshots, accelerated walkthroughs and implementation documentation.
 
-[**Türkçe anlatım**](README.tr.md) · [**Desktop walkthrough · 2×**](assets/videos/desktop-walkthrough-2x.mp4) · [**Mobile walkthrough · 2×**](assets/videos/mobile-walkthrough-2x.mp4) · [**Discuss a project**](mailto:kaantekin06@icloud.com)
+[**Türkçe anlatım**](README.tr.md) · [**Desktop walkthrough · 2×**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [**Mobile walkthrough · 2×**](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) · [**Discuss a project**](mailto:kaantekin06@icloud.com)
 
 ![False Friend cinematic storefront](assets/screenshots/01-acilis-masaustu.png)
 
@@ -133,9 +133,9 @@ Both files are encoded at **twice the captured speed**, rather than requiring a 
 
 | Desktop · about 47 seconds | Mobile · about 15 seconds |
 | --- | --- |
-| [![Play desktop walkthrough](assets/previews/desktop-preview-2x.gif)](assets/videos/desktop-walkthrough-2x.mp4) | [![Play mobile walkthrough](assets/previews/mobile-preview-2x.gif)](assets/videos/mobile-walkthrough-2x.mp4) |
+| [![Play desktop walkthrough](assets/previews/desktop-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) | [![Play mobile walkthrough](assets/previews/mobile-preview-2x.gif)](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4) |
 
-[Open desktop MP4](assets/videos/desktop-walkthrough-2x.mp4) · [Open mobile MP4](assets/videos/mobile-walkthrough-2x.mp4)
+[Open desktop MP4](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/desktop-walkthrough-2x.mp4) · [Open mobile MP4](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/mobile-walkthrough-2x.mp4)
 
 Desktop chapters, approximately:
 
@@ -248,6 +248,12 @@ Npm and NuGet package scans were run during that local verification. Their resul
 - Hosting/domain/TLS deployment was not performed as part of this showcase.
 - Docker/Nginx runtime deployment, Safari, physical-device acceptance and a general WCAG audit were not verified in the local capture environment.
 - During the 1920-pixel capture, the top navigation could overlap the full-screen gallery's close button. The built-in **Escape** shortcut closed the gallery. That observation remains recorded; this media repository does not claim it was fixed.
+
+## Download the showcase
+
+[Download all screenshots, 2× videos and documentation](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/download/showcase-v1/false-friend-showcase-media-2x.zip) · [Release notes](https://github.com/kaandevs-ops/false-friend-ecommerce-showcase/releases/tag/showcase-v1)
+
+The animated GIFs play inline in the README. The full-resolution MP4 links use release downloads, so visitors can obtain the recordings directly instead of reaching GitHub’s large-binary file preview. The archive contains only this showcase repository’s content.
 
 ## Explore the media
 
