@@ -52,3 +52,13 @@ Physical garment measurements are not provided in the concept catalog. Product m
 ![Product and variant selection](assets/screenshots/03-urun-detayi.png)
 ![Collection browser](assets/screenshots/10-koleksiyon.png)
 
+## Cart, wishlist and pricing
+
+Guests can keep a local bag and wishlist. Signing in synchronizes the selection with the account. The interface supports quantity changes, removal, saved items, coupon application and shipping-threshold feedback.
+
+The server calculates authenticated cart prices and validates current product variants and stock. Restored guest selections are checked against the live catalog; stored client prices are not trusted as checkout prices. Late responses from an old login session cannot replace the active user's state. A failed partial account synchronization can be retried explicitly.
+
+Currency display supports EUR, USD and GBP. USD/GBP use fixed illustrative conversion rates; **checkout settlement remains in EUR**.
+
+![Real server cart with quantity and coupon](assets/screenshots/06-sepet-ve-kupon.png)
+
