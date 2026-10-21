@@ -62,3 +62,21 @@ Currency display supports EUR, USD and GBP. USD/GBP use fixed illustrative conve
 
 ![Real server cart with quantity and coupon](assets/screenshots/06-sepet-ve-kupon.png)
 
+## Checkout and recovery
+
+The multi-step checkout covers a saved delivery destination, shipping selection, payment preview and final review.
+
+1. The API builds an authoritative quote with item snapshots, shipping, discounts and totals.
+2. A quote fingerprint binds the reviewed selection and price to the submitted order request.
+3. Changed quotes require an explicit refresh and a new review before confirmation.
+4. The order path validates stock and uses an idempotency key to protect a repeated attempt.
+5. A small, user-scoped local record stores the attempt identifier before submission.
+6. After a lost response or reload, a read-only lookup checks that attempt before another order is allowed.
+7. Pending or unknown outcomes keep a new checkout blocked until the previous result is resolved.
+
+Recovery is scoped to the same browser/origin and customer. It is not a cross-device recovery service or an atomic cross-tab payment lock.
+
+**Payment and refund processing are simulations.** No real card is charged. The published walkthrough stops at order review; the broader local acceptance suite separately exercises simulated confirmation and refund flows.
+
+![Server-verified checkout review](assets/screenshots/09-siparis-inceleme.png)
+
