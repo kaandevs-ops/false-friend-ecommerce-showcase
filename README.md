@@ -16,3 +16,18 @@ False Friend explores how an editorial fashion experience can connect to practic
 
 The intended use is to demonstrate my work to prospective clients. The experience can be adapted to a client's brand and catalog, or used as a starting point for a separately scoped custom website. The main version shown here preserves its cinematic opening and AI-created concept product imagery. Template Edition is a separate presentation and is not included in this repository.
 
+## Visual experience
+
+- Scroll-driven opening video with staged Identity, Material, Form and Object reveals.
+- Chapter controls, scroll progress and a direct link to the featured product.
+- Dynamic hero product name, price and availability sourced from the catalog.
+- Editorial collection blocks, material/construction studies and campaign layouts.
+- Full-screen navigation with category previews, search, saved items and currency controls.
+- Lookbook, manifesto, service, privacy and terms surfaces with a shared visual system.
+- Loading transitions, image fallbacks and support for reduced motion.
+- Hero poster fallback if the video cannot load; video seeking pauses when off-screen.
+
+The opening motion was created with Gemini. Product visuals are AI-created concept assets; the screenshots and walkthroughs show the actual running website.
+
+![Scroll-driven material scene](assets/screenshots/02-kaydirma-sahnesi.png)
+
