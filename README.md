@@ -89,3 +89,27 @@ The concierge is an on-site service guide panel. The mailing-list interaction is
 ![Campaign lookbook](assets/screenshots/13-lookbook.png)
 ![Brand manifesto](assets/screenshots/15-manifesto.png)
 
+## Customer accounts and store operations
+
+| Area | Implemented application behavior |
+| --- | --- |
+| Customer access | Registration with password confirmation, login, logout and session validation |
+| Profile | Customer details, saved address creation/editing/removal and default destination |
+| Password change | Current-password validation, credential update and session invalidation |
+| Orders | Account order history, details and protected tracking |
+| Reviews | Verified-purchase eligibility and moderation workflow |
+| Returns | Customer return requests, status checks and cancellation where allowed |
+| Admin dashboard | Role-protected operational overview and order inspection |
+| Order operations | Validated status transitions and shipping/tracking information |
+| Moderation | Review approval and return processing |
+| Inventory | Variant stock adjustment with an operator reason |
+| Auditability | Operational audit events and trace context |
+| Refund/recovery | Simulated refunds and expired checkout-reservation recovery |
+
+The walkthrough shows customer-facing flows. Admin, order completion, moderation and refund behavior are described from the private application's implementation and local acceptance tests; they are not presented as footage in the walkthrough.
+
+Email verification, transactional delivery and email-based forgotten-password recovery are not configured. The signed-in password-change flow is implemented.
+
+![Customer profile using fictional demonstration data](assets/screenshots/16-musteri-hesabi.png)
+![Saved pieces](assets/screenshots/17-favoriler.png)
+
