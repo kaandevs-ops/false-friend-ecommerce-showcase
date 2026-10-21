@@ -1,0 +1,28 @@
+{
+  "name": "false-friend-ecommerce-showcase",
+  "visibility": "public",
+  "description": "Cinematic streetwear e-commerce showcase by Kaan Tekin \u2014 real desktop/mobile captures, 2x walkthroughs, server-verified cart and checkout, accounts and operations. React, TypeScript, ASP.NET Core and PostgreSQL.",
+  "topics": [
+    "ecommerce",
+    "portfolio",
+    "showcase",
+    "streetwear",
+    "web-design",
+    "ui-ux",
+    "responsive-design",
+    "react",
+    "typescript",
+    "vite",
+    "aspnet-core",
+    "dotnet",
+    "csharp",
+    "postgresql",
+    "full-stack",
+    "shopping-cart",
+    "checkout",
+    "cinematic"
+  ],
+  "applicationSourcePublished": false,
+  "license": "Apache-2.0",
+  "defaultBranch": "main"
+}
